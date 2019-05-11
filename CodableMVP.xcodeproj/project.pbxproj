@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EBA09A591BF1A5B1F993877 /* Pods_CodableMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B86D17AE9E37B065CC5FA8 /* Pods_CodableMVP.framework */; };
+		CDC2FBB92285B79300518ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBB82285B79300518ECC /* AppDelegate.swift */; };
+		CDC2FBBE2285B79300518ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC2FBBC2285B79300518ECC /* Main.storyboard */; };
+		CDC2FBC02285B79300518ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC2FBBF2285B79300518ECC /* Assets.xcassets */; };
+		CDC2FBC32285B79300518ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC2FBC12285B79300518ECC /* LaunchScreen.storyboard */; };
+		CDC2FBD82285B7AB00518ECC /* AnimeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBCB2285B7AB00518ECC /* AnimeListCell.swift */; };
+		CDC2FBD92285B7AB00518ECC /* AnimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBCD2285B7AB00518ECC /* AnimeService.swift */; };
+		CDC2FBDA2285B7AB00518ECC /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBCF2285B7AB00518ECC /* Bindable.swift */; };
+		CDC2FBDB2285B7AB00518ECC /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBD02285B7AB00518ECC /* Extensions+UIView.swift */; };
+		CDC2FBDC2285B7AB00518ECC /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBD22285B7AB00518ECC /* Anime.swift */; };
+		CDC2FBDD2285B7AB00518ECC /* AnimesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBD42285B7AB00518ECC /* AnimesController.swift */; };
+		CDC2FBDE2285B7AB00518ECC /* DetailsAnimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBD52285B7AB00518ECC /* DetailsAnimeController.swift */; };
+		CDC2FBDF2285B7AB00518ECC /* AnimesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2FBD72285B7AB00518ECC /* AnimesPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0E7C2E58C5B1DA1498ABC8 /* Pods-CodableMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodableMVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodableMVP/Pods-CodableMVP.release.xcconfig"; sourceTree = "<group>"; };
+		B4B86D17AE9E37B065CC5FA8 /* Pods_CodableMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodableMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF46DA46626293E0A513C212 /* Pods-CodableMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodableMVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodableMVP/Pods-CodableMVP.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC2FBB52285B79300518ECC /* CodableMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodableMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC2FBB82285B79300518ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDC2FBBD2285B79300518ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC2FBBF2285B79300518ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC2FBC22285B79300518ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDC2FBC42285B79300518ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC2FBCB2285B7AB00518ECC /* AnimeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeListCell.swift; sourceTree = "<group>"; };
+		CDC2FBCD2285B7AB00518ECC /* AnimeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeService.swift; sourceTree = "<group>"; };
+		CDC2FBCF2285B7AB00518ECC /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		CDC2FBD02285B7AB00518ECC /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		CDC2FBD22285B7AB00518ECC /* Anime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		CDC2FBD42285B7AB00518ECC /* AnimesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimesController.swift; sourceTree = "<group>"; };
+		CDC2FBD52285B7AB00518ECC /* DetailsAnimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsAnimeController.swift; sourceTree = "<group>"; };
+		CDC2FBD72285B7AB00518ECC /* AnimesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimesPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC2FBB22285B79300518ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBA09A591BF1A5B1F993877 /* Pods_CodableMVP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1357E3CF1441A7087CCDA2AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF46DA46626293E0A513C212 /* Pods-CodableMVP.debug.xcconfig */,
+				0A0E7C2E58C5B1DA1498ABC8 /* Pods-CodableMVP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4AAEBB217673ACA84AD8777C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4B86D17AE9E37B065CC5FA8 /* Pods_CodableMVP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC2FBAC2285B79300518ECC = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBB72285B79300518ECC /* CodableMVP */,
+				CDC2FBB62285B79300518ECC /* Products */,
+				1357E3CF1441A7087CCDA2AE /* Pods */,
+				4AAEBB217673ACA84AD8777C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC2FBB62285B79300518ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBB52285B79300518ECC /* CodableMVP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC2FBB72285B79300518ECC /* CodableMVP */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBCE2285B7AB00518ECC /* Utils */,
+				CDC2FBCC2285B7AB00518ECC /* Service */,
+				CDC2FBD12285B7AB00518ECC /* Model */,
+				CDC2FBCA2285B7AB00518ECC /* View */,
+				CDC2FBD62285B7AB00518ECC /* Presenters */,
+				CDC2FBD32285B7AB00518ECC /* Controller */,
+				CDC2FBB82285B79300518ECC /* AppDelegate.swift */,
+				CDC2FBBC2285B79300518ECC /* Main.storyboard */,
+				CDC2FBBF2285B79300518ECC /* Assets.xcassets */,
+				CDC2FBC12285B79300518ECC /* LaunchScreen.storyboard */,
+				CDC2FBC42285B79300518ECC /* Info.plist */,
+			);
+			path = CodableMVP;
+			sourceTree = "<group>";
+		};
+		CDC2FBCA2285B7AB00518ECC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBCB2285B7AB00518ECC /* AnimeListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDC2FBCC2285B7AB00518ECC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBCD2285B7AB00518ECC /* AnimeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CDC2FBCE2285B7AB00518ECC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBCF2285B7AB00518ECC /* Bindable.swift */,
+				CDC2FBD02285B7AB00518ECC /* Extensions+UIView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CDC2FBD12285B7AB00518ECC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBD22285B7AB00518ECC /* Anime.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDC2FBD32285B7AB00518ECC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBD42285B7AB00518ECC /* AnimesController.swift */,
+				CDC2FBD52285B7AB00518ECC /* DetailsAnimeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDC2FBD62285B7AB00518ECC /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2FBD72285B7AB00518ECC /* AnimesPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC2FBB42285B79300518ECC /* CodableMVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC2FBC72285B79300518ECC /* Build configuration list for PBXNativeTarget "CodableMVP" */;
+			buildPhases = (
+				E5F6A8E9E83A451F53F4BE25 /* [CP] Check Pods Manifest.lock */,
+				CDC2FBB12285B79300518ECC /* Sources */,
+				CDC2FBB22285B79300518ECC /* Frameworks */,
+				CDC2FBB32285B79300518ECC /* Resources */,
+				56D63BDBDBAAEBB8355C4F52 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodableMVP;
+			productName = CodableMVP;
+			productReference = CDC2FBB52285B79300518ECC /* CodableMVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC2FBAD2285B79300518ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = OuSS;
+				TargetAttributes = {
+					CDC2FBB42285B79300518ECC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CDC2FBB02285B79300518ECC /* Build configuration list for PBXProject "CodableMVP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC2FBAC2285B79300518ECC;
+			productRefGroup = CDC2FBB62285B79300518ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC2FBB42285B79300518ECC /* CodableMVP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC2FBB32285B79300518ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC2FBC32285B79300518ECC /* LaunchScreen.storyboard in Resources */,
+				CDC2FBC02285B79300518ECC /* Assets.xcassets in Resources */,
+				CDC2FBBE2285B79300518ECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56D63BDBDBAAEBB8355C4F52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CodableMVP/Pods-CodableMVP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodableMVP/Pods-CodableMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5F6A8E9E83A451F53F4BE25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodableMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC2FBB12285B79300518ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC2FBD82285B7AB00518ECC /* AnimeListCell.swift in Sources */,
+				CDC2FBDF2285B7AB00518ECC /* AnimesPresenter.swift in Sources */,
+				CDC2FBD92285B7AB00518ECC /* AnimeService.swift in Sources */,
+				CDC2FBDD2285B7AB00518ECC /* AnimesController.swift in Sources */,
+				CDC2FBDE2285B7AB00518ECC /* DetailsAnimeController.swift in Sources */,
+				CDC2FBDC2285B7AB00518ECC /* Anime.swift in Sources */,
+				CDC2FBDA2285B7AB00518ECC /* Bindable.swift in Sources */,
+				CDC2FBB92285B79300518ECC /* AppDelegate.swift in Sources */,
+				CDC2FBDB2285B7AB00518ECC /* Extensions+UIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDC2FBBC2285B79300518ECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC2FBBD2285B79300518ECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC2FBC12285B79300518ECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC2FBC22285B79300518ECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC2FBC52285B79300518ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDC2FBC62285B79300518ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC2FBC82285B79300518ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF46DA46626293E0A513C212 /* Pods-CodableMVP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CodableMVP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouss.CodableMVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC2FBC92285B79300518ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0E7C2E58C5B1DA1498ABC8 /* Pods-CodableMVP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CodableMVP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouss.CodableMVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC2FBB02285B79300518ECC /* Build configuration list for PBXProject "CodableMVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC2FBC52285B79300518ECC /* Debug */,
+				CDC2FBC62285B79300518ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC2FBC72285B79300518ECC /* Build configuration list for PBXNativeTarget "CodableMVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC2FBC82285B79300518ECC /* Debug */,
+				CDC2FBC92285B79300518ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC2FBAD2285B79300518ECC /* Project object */;
+}
